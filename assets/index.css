@@ -1,128 +1,75 @@
 @font-face {
-    font-family: 'OneLove';
-    src: url('./fonts/onelove_free_personal_use-webfont.eot');
-    src: url('./fonts/onelove_free_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/onelove_free_personal_use-webfont.woff2') format('woff2'),
-         url('./fonts/onelove_free_personal_use-webfont.woff') format('woff'),
-         url('./fonts/onelove_free_personal_use-webfont.ttf') format('truetype'),
-         url('./fonts/onelove_free_personal_use-webfont.svg#onelove_free_for_personal_uRg') format('svg');
+    font-family: 'frontageregular';
+    src: url('./fonts/frontage-regular-webfont.eot');
+    src: url('./fontsfrontage-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/frontage-regular-webfont.woff2') format('woff2'),
+         url('./fonts/frontage-regular-webfont.woff') format('woff'),
+         url('./fonts/frontage-regular-webfont.ttf') format('truetype'),
+         url('./fonts/frontage-regular-webfont.svg#frontageregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Playfair';
-    src: url('./fonts/PlayfairDisplaySC-Regular.eot');
-    src: url('./fonts/PlayfairDisplaySC-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/PlayfairDisplaySC-Regular.woff2') format('woff2'),
-        url('./fonts/PlayfairDisplaySC-Regular.woff') format('woff'),
-        url('./fonts/PlayfairDisplaySC-Regular.ttf') format('truetype'),
-        url('./fonts/PlayfairDisplaySC-Regular.svg#PlayfairDisplaySC-Regular') format('svg');
+    font-family: 'frontageoutline';
+    src: url('./fonts/frontage-outline-webfont.eot');
+    src: url('./fonts/frontage-outline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/frontage-outline-webfont.woff2') format('woff2'),
+         url('./fonts/frontage-outline-webfont.woff') format('woff'),
+         url('./fonts/frontage-outline-webfont.ttf') format('truetype'),
+         url('./fonts/frontage-outline-webfont.svg#frontageoutline') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Playfair Italic';
-    src: url('./fonts/PlayfairDisplaySC-Italic.eot');
-    src: url('./fonts/PlayfairDisplaySC-Italic.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/PlayfairDisplaySC-Italic.woff2') format('woff2'),
-        url('./fonts/PlayfairDisplaySC-Italic.woff') format('woff'),
-        url('./fonts/PlayfairDisplaySC-Italic.ttf') format('truetype'),
-        url('./fonts/PlayfairDisplaySC-Italic.svg#PlayfairDisplaySC-Italic') format('svg');
+    font-family: 'frontagebold';
+    src: url('./fonts/frontage-bold-webfont.eot');
+    src: url('./fonts/frontage-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/frontage-bold-webfont.woff2') format('woff2'),
+         url('./fonts/frontage-bold-webfont.woff') format('woff'),
+         url('./fonts/frontage-bold-webfont.ttf') format('truetype'),
+         url('./fonts/frontage-bold-webfont.svg#frontagebold') format('svg');
     font-weight: normal;
-    font-style: italic;
-}
-html { 
-    height: 100%; 
+    font-style: normal;
 }
 body {
-    background-color: #F9F9F9;
+    background-color: #FFFFFF;
     margin: 0;
 }
-#pagetitle {
-    font-family: 'OneLove';
-    font-size: 100px;
-    text-align: center;
-    margin-bottom: 0;
-    color: #8E8E8E;
-    text-shadow: 0px 4px 4px rgba(128, 128, 128, 50);
-}
-#date {
-    font-family: 'OneLove';
-    font-size: 20px;
-    text-align: center;
-    margin-top: 0;
-    color: #8E8E8E;
-}
-#formbox {
-    width: 100%;
-    height: 55%;
-    background-image: linear-gradient(to right, #8E8E8E, #D6D6D6, #8E8E8E);
-    box-shadow: 0px -4px 4px rgba(128, 128, 128, 50);
-    position: absolute;
-    bottom: 0;
-}
-#subtitle {
-    font-family: 'OneLove';
-    /* font-size: 100px; */
-    text-align: center;
-    margin-bottom: 0;
-    color: #C4A098;
-    text-shadow: 1px 1px 10px rgba(258, 258, 258, 50);
-}
-.formdiv {
-    font-family: 'Playfair Italic';
-    font-size: 25px;
-    width: 80%;
+#bjlogo {
+    display: block;
     margin: auto;
-}
-h5 {
-    margin: 0;
-    color: #F9F9F9;
-    text-shadow: 1px 1px 10px rgba(128, 128, 128, 50);
-    margin-bottom: 5px;
-    margin-top: 5px;
-}
-input {
-    width: 100%;
-    height: 35px;
-    font-family: 'Playfair Italic';
-    font-size: 20px;
-    border-color: #C4A098;
-    border-style: ridge;
-    border-width: 4px;
-    margin: auto;
-}
-#submit {
-    font-family: 'Playfair';
-    font-size: 25px;
-    border-style: solid;
-    width: 60%;
-    margin-left: 20%;
+    width: 200px;
+    margin-bottom: 20px;
     margin-top: 15px;
-    color: #C4A098;
-    background-color: #EEDBD7;
-    padding: 5px 0 40px 0;
 }
-@media only screen and (max-width: 700px) {
-    #pagetitle {
-        font-size: 80px;
-    }
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 3px;
+    color: #8E8E8E;
+    background-color: #8E8E8E;
 }
-@media only screen and (max-width: 570px) {
-    #pagetitle {
-        font-size: 70px;
-    }
+#bjtitle {
+    font-family: 'frontageregular';
+    color: #8E8E8E;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 0px 2px 2px;
 }
-@media only screen and (max-width: 500px) {
-    #pagetitle {
-        font-size: 55px;
-    }
-    #formbox {
-        height: 65%;
-    }
+#registry {
+    font-family: 'frontageregular';
+    text-align: center;
+    color: black;
+    letter-spacing: 15px;
+    display: block;
 }
-@media only screen and (max-width: 400px) {
-    #pagetitle {
-        font-size: 45px;
-    }
+.rlink {
+    padding-bottom: 5px;
+}
+.rlink:hover {
+    border-bottom: 2px solid;
+    cursor: pointer;
 }
