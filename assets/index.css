@@ -161,3 +161,17 @@ h5 {
     display: block;
     margin: 20px auto;
 }
+.info {
+    font-family: 'josefin_sanslight';
+    text-align: center;
+}
+.schedule {
+    font-family: 'josefin_sansregular';
+}
+h4 {
+    margin: 5px;
+}
+#registry {
+    font-family: 'josefin_sanssemibold';
+    margin-bottom: 35px;
+}
